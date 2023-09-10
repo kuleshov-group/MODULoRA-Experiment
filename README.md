@@ -1,8 +1,6 @@
 # MODULoRA
 Code repository for the paper "ModuLoRA: Finetuning 3-Bit LLMs on Consumer GPUs by Integrating with Modular Quantizers".
 
-This code repository provides implementation for our paper ModuLoRA.
-
 **This repo builds on LLMTune dev branch, with added support of custom dataset preparation and evaluation.**
 
 **Abstract:** We propose a memory-efficient finetuning algorithm for large language models (LLMs) that supports
