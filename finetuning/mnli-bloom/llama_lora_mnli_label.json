@@ -1,0 +1,10 @@
+{
+    "description": "Template used by LLAMA-MNLI-m output label.",
+    "prompts_input": [
+        "### Premise: {instruction}\n ### Hypothesis: {hypothesis}\n ### Genre: {genre} ### Label:"
+    ],
+    "prompts_no_input": [
+        "### Premise: {instruction}\n ### Hypothesis: {hypothesis}\n ### Genre: {genre} ### Label:"
+    ],
+    "output_separator": "### Label:"
+}
