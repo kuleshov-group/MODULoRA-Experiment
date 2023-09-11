@@ -23,9 +23,9 @@ user-friendly library for quantizing, running, and finetuning LLMs on consumer G
 There are several directories in this repo:
 * [llmtune/](llmtune) contains the source code for the package `llmtune`, which needs to be installed to run the examples we provide;
 * [examples/](examples/) contains an example implementation of 4-bit, 3-bit quantization using OPTQ, finetuning with alpaca dataset, and model generation after applying finetuned LoRA adapater werights.
-* [finetune/samsum-llama/](examples/samsum-llama) contains implementation of finetuning SAMSum benchmark with LoRA in LLaMA models using our package and bitsandbytes, which can be used to reproduce the result in our paper;
-* [finetune/mnli-samsum/](examples/mnli-llama) contains implementation of finetuning MNLI benchmark with LoRA in LLaMA models using our package and bitsandbytes, which produces competitive results compared to SOTA;
-* Others finetuning scripts can also be found in the same directory [OPT](examples/samsum-opt), [BLOOM](examples/mnli-bloom)
-* See how we train `loralib` in [GPT-2](examples/NLG/src/model.py), [RoBERTa](examples/NLU/src/transformers/models/roberta/modeling_roberta.py), and [DeBERTa v2](examples/NLU/src/transformers/models/deberta_v2/modeling_deberta_v2.py)
-* See how we evaluate `loralib` in [GPT-2](examples/NLG/src/model.py), [RoBERTa](examples/NLU/src/transformers/models/roberta/modeling_roberta.py), and [DeBERTa v2](examples/NLU/src/transformers/models/deberta_v2/modeling_deberta_v2.py)
+* [finetune/samsum-llama/](finetune/samsum-llama) contains implementation of finetuning SAMSum benchmark with LoRA in LLaMA models using our package and bitsandbytes, which can be used to reproduce the result in our paper;
+* [finetune/mnli-samsum/](finetune/mnli-llama) contains implementation of finetuning MNLI benchmark with LoRA in LLaMA models using our package and bitsandbytes, which produces competitive results compared to SOTA;
+* Others finetuning scripts can also be found in the same directory [OPT](finetune/samsum-opt), [BLOOM](finetune/mnli-bloom)
+* See how we train `MODULoRA` 3-bit / 4-bit models in [SAMSum-LLAMA](finetune/samsum-llama/train_samsum_4bit.py), [MNLI-LLAMA](finetune/mnli-llama/train_mnli_llmtune_label.py), and [BBH-LLAMA](finetune/mnli-llama/modeling_roberta.py)
+* See how we evaluate `MODULoRA` results in [SAMSum-LLAMA](finetune/samsum-llama/eval_samsum_4bit_llmtune.py), [MNLI-LLAMA](finetune/mnli-llama/eval_mnli_llmtune.py), and [BBH-LLAMA](finetune/mnli-llama/eval_mnli_llmtune.py)
 
