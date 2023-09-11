@@ -1,4 +1,4 @@
-# MODULoRA
+# ModuLoRA
 Code repository for the paper "ModuLoRA: Finetuning 3-Bit LLMs on Consumer GPUs by Integrating with Modular Quantizers".
 
 **This repo builds on LLMTune dev branch, with added support of custom dataset preparation and evaluation.**
