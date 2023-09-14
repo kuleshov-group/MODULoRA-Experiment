@@ -27,5 +27,5 @@ There are several directories in this repo:
 * [finetune/mnli-samsum/](finetune/mnli-llama) contains implementation of finetuning MNLI benchmark with LoRA in LLaMA models using our package and bitsandbytes, which produces competitive results compared to SOTA;
 * Others finetuning scripts can also be found in the same directory [OPT](finetune/samsum-opt), [BLOOM](finetune/mnli-bloom)
 * See how we train `MODULoRA` 3-bit / 4-bit models in [SAMSum-LLAMA](finetune/samsum-llama/train_samsum_4bit.py), [MNLI-LLAMA](finetune/mnli-llama/train_mnli_llmtune_label.py), and [BBH-LLAMA](finetune/mnli-llama/modeling_roberta.py)
-* See how we evaluate `MODULoRA` results in [SAMSum-LLAMA](finetune/samsum-llama/eval_samsum_4bit_llmtune.py), [MNLI-LLAMA](finetune/mnli-llama/eval_mnli_llmtune.py), and [BBH-LLAMA](finetune/mnli-llama/eval_mnli_llmtune.py)
+* See how we evaluate `MODULoRA` results in [SAMSum-LLAMA](finetune/samsum-llama/eval_samsum_4bit_llmtune.py), [MNLI-LLAMA](finetune/mnli-llama/eval_mnli_llmtune.py), and [BBH-LLAMA](finetune/bbh-eval/main_dev.py)
 
