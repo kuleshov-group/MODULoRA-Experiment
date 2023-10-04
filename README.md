@@ -1,7 +1,7 @@
 # ModuLoRA
-Code repository (experiment) for the paper "ModuLoRA: Finetuning 3-Bit LLMs on Consumer GPUs by Integrating with Modular Quantizers".
+Code repository (experiment) for the paper "ModuLoRA: Finetuning 3-Bit LLMs on Consumer GPUs by Integrating with Modular Quantizers", [ArXiv](https://arxiv.org/abs/2309.16119).
 
-**This repo builds on LLMTune dev branch, with added support of custom dataset preparation and evaluation to reproduce our experiment.**
+**This repo builds on [LLMtools](https://github.com/kuleshov-group/llmtools), with added support of custom dataset preparation and evaluation to reproduce our experiment.**
 
 **Abstract:** We propose a memory-efficient finetuning algorithm for large language models (LLMs) that supports
 finetuning LLMs with 65B parameters in 3-bit or 4-bit precision on as little as one 48GB GPU. Our
